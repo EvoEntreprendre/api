@@ -1,0 +1,20 @@
+{
+    "name": "evoentreprendre/api",
+    "type": "API",
+    "description": "API pour le site evoportail.fr",
+    "keywords": [],
+    "authors": [
+        {
+            "name":   "David Micheau",
+            "email": "technique@evoentreprendre.com",
+            "homepage": "https://www.evoportail.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "minimum-stability": "dev"
+}
